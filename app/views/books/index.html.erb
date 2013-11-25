@@ -8,6 +8,7 @@
 <table>
   <thead>
     <tr>
+      <th>id</th>
       <th>Title</th>
       <th>Price</th>
       <th>Published_on</th>
@@ -18,16 +19,16 @@
   </thead>
 
   <tbody>
-    <% @books.each do |book| %>
-      <tr>
-        <td><%= book.title %></td>
-        <td><%= book.price %></td>
-        <td><%= book.published_on %></td>
-        <td><%= link_to 'Show', book %></td>
-        <td><%= link_to 'Edit', edit_book_path(book) %></td>
-        <td><%= link_to 'Destroy', book, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
+  <%= content_tag_for :tr, @books do |book| %>
+    <td><%= book.id %></td>
+    <td><%= book.title %></td>
+    <td><%= book.price %></td>
+    <td><%= book.published_on %></td>
+    <td><%= link_to 'Show', book %></td>
+    <td><%= link_to 'Edit', edit_book_path(book) %></td>
+    <td><%= link_to 'Destroy', book, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+  <% end %>
   </tbody>
 </table>
 

@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c45a8f76-8d0b-4fdd-a721-86398135cb56" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/book.rb" afterPath="$PROJECT_DIR$/app/models/book.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/books_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/books_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/books/index.html.erb" afterPath="$PROJECT_DIR$/app/views/books/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/search_form.rb" afterPath="$PROJECT_DIR$/app/models/search_form.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tetsuzine.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -15,7 +11,7 @@
     <file path="/application_controller.rb" changelist="c45a8f76-8d0b-4fdd-a721-86398135cb56" time="1385395542727" ignored="false" />
     <file path="/routes.rb" changelist="c45a8f76-8d0b-4fdd-a721-86398135cb56" time="1385395813523" ignored="false" />
     <file path="/_form.html.erb" changelist="c45a8f76-8d0b-4fdd-a721-86398135cb56" time="1385396249769" ignored="false" />
-    <file path="/index.html.erb" changelist="c45a8f76-8d0b-4fdd-a721-86398135cb56" time="1385396892963" ignored="false" />
+    <file path="/index.html.erb" changelist="c45a8f76-8d0b-4fdd-a721-86398135cb56" time="1385397772684" ignored="false" />
     <file path="/show.html.erb" changelist="c45a8f76-8d0b-4fdd-a721-86398135cb56" time="1385396345817" ignored="false" />
     <file path="/search_form.rb" changelist="c45a8f76-8d0b-4fdd-a721-86398135cb56" time="1385396757514" ignored="false" />
     <file path="/book.rb" changelist="c45a8f76-8d0b-4fdd-a721-86398135cb56" time="1385397271396" ignored="false" />
@@ -65,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/books/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="9" selection-start="162" selection-end="162" vertical-scroll-proportion="-3.125">
+            <state line="22" column="20" selection-start="426" selection-end="426" vertical-scroll-proportion="0.39568347">
               <folding />
             </state>
           </provider>
@@ -83,10 +79,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="book.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="book.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/book.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="53" selection-start="85" selection-end="85" vertical-scroll-proportion="0.017482517">
+            <state line="1" column="53" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -115,9 +111,9 @@
         <option value="$PROJECT_DIR$/app/views/books/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/books/show.html.erb" />
         <option value="$PROJECT_DIR$/app/models/search_form.rb" />
-        <option value="$PROJECT_DIR$/app/views/books/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/books_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/book.rb" />
+        <option value="$PROJECT_DIR$/app/views/books/index.html.erb" />
       </list>
     </option>
   </component>
@@ -728,13 +724,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/books/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="9" selection-start="162" selection-end="162" vertical-scroll-proportion="-3.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/books_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="24" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
@@ -744,7 +733,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/book.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="53" selection-start="85" selection-end="85" vertical-scroll-proportion="0.017482517">
+        <state line="1" column="53" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/books/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="20" selection-start="426" selection-end="426" vertical-scroll-proportion="0.39568347">
           <folding />
         </state>
       </provider>
